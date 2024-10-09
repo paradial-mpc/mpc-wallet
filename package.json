@@ -1,0 +1,22 @@
+{
+	"name": "paradial-mpc-ui",
+	"version": "1.0.0",
+	"description": "Solana TSS Wallet Library",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepublish": "npm run build"
+	},
+	"dependencies": {
+		"@solana/web3.js": "^1.50.1",
+		"solana-tss-lib": "^1.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^16.11.12",
+		"typescript": "^4.5.4"
+	},
+	"peerDependencies": {
+		"@solana/web3.js": "^1.50.1"
+	}
+}
